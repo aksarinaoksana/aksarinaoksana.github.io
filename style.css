@@ -456,3 +456,10 @@ a{ color: inherit; }
   display: block;
 }
 
+.identity{
+  margin-top: 14px;
+  opacity: 0.8;
+  font-size: 0.95rem;
+  max-width: 520px;
+}
+
