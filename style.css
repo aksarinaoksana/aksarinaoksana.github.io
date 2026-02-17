@@ -137,6 +137,11 @@ a{ color: inherit; }
   position: relative;
   z-index: 1;
 }
+.hero-right{
+  display: flex;
+  justify-content: flex-end;   
+  align-items: center;
+}
 
 .kicker{
   margin: 0 0 10px;
@@ -219,9 +224,12 @@ a{ color: inherit; }
   height: 240px;
   border-radius: 50%;
   overflow: hidden;
-  flex: 0 0 auto;
+  margin-right: 6px;         
+  
   border: 1px solid rgba(160, 200, 255, 0.22);
-  box-shadow: 0 0 0 6px rgba(60, 120, 255, 0.08);
+  box-shadow:
+    0 0 0 6px rgba(60, 120, 255, 0.08),
+    0 0 40px rgba(90,140,255,.15);
 }
 
 .avatar{
@@ -229,7 +237,7 @@ a{ color: inherit; }
   height: 100%;
   display: block;
   object-fit: cover;
-  object-position: 50% 35%; /* лицо чуть выше центра */
+  object-position: 50% 35%; 
 }
 
 
@@ -465,6 +473,7 @@ a{ color: inherit; }
   object-fit: cover;
   object-position: 50% 35%;
 }
+
 
 
 
