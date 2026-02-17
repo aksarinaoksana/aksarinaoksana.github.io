@@ -230,7 +230,7 @@ a{ color: inherit; }
   width: 100%;
   height: 100%;
   display: block;
-  
+  object-position: 50% 35%;
   object-fit: cover;
   object-position: center;
 }
@@ -445,5 +445,6 @@ a{ color: inherit; }
   font-size: 0.95rem;
   max-width: 520px;
 }
+
 
 
