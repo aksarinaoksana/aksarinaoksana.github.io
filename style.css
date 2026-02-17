@@ -215,13 +215,11 @@ a{ color: inherit; }
 
 /* avatar */
 .avatar-wrap{
-  width: 220px;
-  height: 220px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
   overflow: hidden;
-
   flex: 0 0 auto;
-
   border: 1px solid rgba(160, 200, 255, 0.22);
   box-shadow: 0 0 0 6px rgba(60, 120, 255, 0.08);
 }
@@ -230,12 +228,10 @@ a{ color: inherit; }
   width: 100%;
   height: 100%;
   display: block;
-  object-position: 50% 35%;
   object-fit: cover;
-  object-position: center;
+  object-position: 50% 35%; /* лицо чуть выше центра */
 }
 
-}
 
 /* SECTIONS */
 .section{
@@ -445,6 +441,7 @@ a{ color: inherit; }
   font-size: 0.95rem;
   max-width: 520px;
 }
+
 
 
 
