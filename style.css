@@ -442,7 +442,7 @@ a{ color: inherit; }
   max-width: 520px;
 }
 
-/* --- HARD FIX: avatar always fits the circle --- */
+/* --- HARD FIX: avatar  --- */
 .hero-right{
   display: flex;
   justify-content: center;
@@ -465,6 +465,7 @@ a{ color: inherit; }
   object-fit: cover;
   object-position: 50% 35%;
 }
+
 
 
 
